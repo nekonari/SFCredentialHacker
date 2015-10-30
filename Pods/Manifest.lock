@@ -1,0 +1,33 @@
+PODS:
+  - SalesforceMobileSDK-iOS/SalesforceCommonUtils (3.3.1)
+  - SalesforceMobileSDK-iOS/SalesforceOAuth (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+  - SalesforceMobileSDK-iOS/SalesforceSDKCommon (3.3.1)
+  - SalesforceMobileSDK-iOS/SalesforceSDKCore (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceOAuth
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+    - SQLCipher (~> 3.1)
+    - SQLCipher/fts (~> 3.1)
+  - SalesforceMobileSDK-iOS/SalesforceSecurity (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/fts (3.1.0):
+    - SQLCipher/common
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - SalesforceMobileSDK-iOS/SalesforceSDKCore
+
+SPEC CHECKSUMS:
+  SalesforceMobileSDK-iOS: 6f6b00c3a37a1b2814658c471ee27e9b560df3a9
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
+
+COCOAPODS: 0.39.0
