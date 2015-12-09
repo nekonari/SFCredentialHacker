@@ -134,6 +134,7 @@
 				TargetAttributes = {
 					7604ABBD1BE3D411000397B2 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = A59ELN43EW;
 					};
 				};
 			};
@@ -352,11 +353,13 @@
 			baseConfigurationReference = F40E02AAD48AC198315363D5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SFCredentialHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rollio.SFCredentialHacker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,11 +373,13 @@
 			baseConfigurationReference = 773AA1665362CB659FE48D54 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SFCredentialHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rollio.SFCredentialHacker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
